@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="249dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/my_photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/my_photo_foreground" />
+
+    <TextView
+        android:id="@+id/my_photo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="10sp"
+        android:text="Eugene O. Odhiambo"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/my_track"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/track_android"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_photo" />
+
+    <TextView
+        android:id="@+id/my_country"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/country_kenya"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/my_track"
+        app:layout_constraintStart_toStartOf="@+id/my_track"
+        app:layout_constraintTop_toBottomOf="@+id/my_track" />
+
+    <TextView
+        android:id="@+id/my_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/email_alangitonga15_gmail_com"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/my_country"
+        app:layout_constraintStart_toStartOf="@+id/my_country"
+        app:layout_constraintTop_toBottomOf="@+id/my_country" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/phone_number_254792705723"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/my_email"
+        app:layout_constraintStart_toStartOf="@+id/my_email"
+        app:layout_constraintTop_toBottomOf="@+id/my_email" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/slack_username_derich"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ALC4.0: Phase1 Challenge</string>
+    <string name="my_profile_name">My Profile</string>
+    <string name="about_alc_name">About ALC</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="alan_gitonga_wanjiru">Alan Gitonga Wanjiru</string>
+    <string name="track_android">Track: Android</string>
+    <string name="country_kenya">Country: Kenya</string>
+    <string name="phone_number_254792705723">Phone Number: +254790868398</string>
+    <string name="email_alangitonga15_gmail_com">Email: awilyeujoh98@gmail.com</string>
+    <string name="todo">TODO</string>
+    <string name="slack_username_derich">Slack Username: Eugene Odhiambo</string>
+</resources>
